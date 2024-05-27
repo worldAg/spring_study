@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hello.mapper.TimeMapper"> <!-- nampespace 속성은 Mapper 인터페이스와 동일한 이름을 사용해야 함 -->
+	
+	<select id="getTime2" resultType="String"> <!-- id 속성은 Mapper 인터페이스의 메서드 이름, resultTyle 속성은 메서드의 return 타입과 동일해야 함 -->
+		SELECT sysdate FROM dual
+	</select>
+	
+</mapper>
