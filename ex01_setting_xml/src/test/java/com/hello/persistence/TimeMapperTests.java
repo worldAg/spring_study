@@ -25,4 +25,10 @@ public class TimeMapperTests {
 		log.info(timeMapper.getTime());
 	}
 	
+	@Test
+	public void testGetTime2() {
+		log.info("===== getTime2 ====="); // 실제 동작하는 클래스의 이름 확인
+		log.info(timeMapper.getTime2());
+	}
+	
 }
