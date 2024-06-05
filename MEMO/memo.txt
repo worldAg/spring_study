@@ -1,0 +1,6 @@
+1. STS3 설치
+	https://github.com/spring-attic/toolsuite-distribution/wiki/Spring-Tool-Suite-3
+
+
+2. 'New Spring Legacy Project' > 'Spring MVC Project' 없는 경우
+	'workspace(워크스페이스 경로)\.metadata\.plugins\org.springsource.ide.eclipse.commons.content.core'에 http-content.xml 넣기
